@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Website</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .top-rectangle, .bottom-rectangle {
+        height: 20%;
+        width: 100%;
+        background-color: red;
+        position: absolute;
+        left: 0;
+    }
+
+    .top-rectangle {
+        top: 0;
+    }
+
+    .bottom-rectangle {
+        bottom: 0;
+    }
+
+    .centered-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 48px;
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<div class="top-rectangle"></div>
+<div class="bottom-rectangle"></div>
+
+<div class="centered-text">
+    Treinamento DevOps Elfa
+</div>
+
+</body>
+</html>
